@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/hong" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="김 비서가 왜 그럴까?"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/img"
+        android:layout_alignBaseline="@id/img"
+        android:layout_marginLeft="15dp" />
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2018-08-03  8.2MB"
+        android:textSize="15dp"
+        android:layout_alignLeft="@id/title"
+        android:layout_below="@id/title"/>
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_dialer"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:layout_below="@id/icon"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>
